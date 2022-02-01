@@ -1,0 +1,16 @@
+[property]
+gpu-id=0
+net-scale-factor=0.003921568
+offsets=119.85;104.04;113.985
+model-engine-file=../../models/multi_pose_dla34_coco_3x_b4_512_fp16.plan
+process-mode=1
+network-mode=2
+num-detected-classes=1
+labelfile-path=./labels.txt
+gie-unique-id=1
+model-color-format=1
+infer-dims=3;512;512
+maintain-aspect-ratio=1
+custom-lib-path=./libs/libnvds_infercustomparser_centernet.so
+parse-bbox-func-name=NvDsInferParseCustomCenterNet
+cluster-mode=4
