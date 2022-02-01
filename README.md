@@ -1,5 +1,7 @@
 <div align="center">
+  <a href="https://medium.com/may-i-lab">
   <img src="images/logo.png" width="600"/>
+  </a>
 </div>
 
 # Deploying CenterNet model using NVIDIA DeepStream #
@@ -46,6 +48,8 @@ python apps/centernet/deepstream_centernet.py \
   --save_folder result
 ```
 
+![progress](images/deepstream_centernet_run.gif)
+
 result format(json):
 ```
 detection_result = {
@@ -57,6 +61,13 @@ detection_result = {
   }
 }
 ```
+
+<details>
+<summary>Visualize</summary>
+We are mAy-I !!
+
+![mayi](images/mAy-I_pred3.png)
+</details>
 
 ## Reference
 * CenterNet: https://github.com/xingyizhou/CenterNet
