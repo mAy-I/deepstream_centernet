@@ -4,7 +4,7 @@
 
 # Deploying CenterNet model using NVIDIA DeepStream #
 
-This repository contains contains the the code and configuration files required to deploy sample open source models video analytics using DeepStream SDK 6.0.
+This repository contains contains the the code and configuration files required to deploy CenterNet models video analytics using DeepStream SDK 6.0.
 
 ## Installation ##
 Please refer to [Install.md](doc/Install.md) for installation.
