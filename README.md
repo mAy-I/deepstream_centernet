@@ -46,7 +46,7 @@ python apps/centernet/deepstream_centernet.py \
   --save_folder result
 ```
 
-result format:
+result format(json):
 ```
 detection_result = {
   "stream_0": {
@@ -57,3 +57,9 @@ detection_result = {
   }
 }
 ```
+
+## Reference
+* CenterNet: https://github.com/xingyizhou/CenterNet
+* deepstream_triton_model_deploy: https://github.com/NVIDIA-AI-IOT/deepstream_triton_model_deploy
+* deepstream_python_apps: https://github.com/NVIDIA-AI-IOT/deepstream_python_apps
+* mmcv: https://github.com/open-mmlab/mmcv 
