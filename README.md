@@ -41,7 +41,7 @@ To Run deepstream centernet:
 
 ```shell
 python apps/centernet/deepstream_centernet.py \
-  --video_file file:///test1.mp4 file:///test2.mp4 \
+  --video_file file:///test1.mp4\ file:///test2.mp4 \
   --batch_size 4 \
   --save_folder result
 ```
