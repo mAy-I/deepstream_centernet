@@ -48,7 +48,7 @@ python apps/centernet/deepstream_centernet.py \
   --save_folder result
 ```
 
-![progress](images/deepstream_centernet_run.gif)
+<img src="images/deepstream_centernet_run.gif" width="600"/>
 
 result format(json):
 ```
@@ -66,7 +66,7 @@ detection_result = {
 <summary>Visualize</summary>
 We are mAy-I !!
 
-![mayi](images/mAy-I_pred3.png)
+<img src="images/mAy-I_pred3.png" width="600"/>
 </details>
 
 ## Reference
